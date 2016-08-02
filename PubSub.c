@@ -98,7 +98,7 @@ void pubsub_publish(char *event_name, void *data) {
  * @param event_name
  * @param fn
  */
-void pusub_unsubscribe(char *event_name, Subscriber fn) {
+void pubsub_unsubscribe(char *event_name, Subscriber fn) {
     foreach_event_callback(event_name, remove_handler, fn);
 }
 

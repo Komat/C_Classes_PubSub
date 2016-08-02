@@ -21,7 +21,7 @@ void pubsub_publish(char *event_name, void *data);
 
 void pubsub_subscribe(char *event_name, Subscriber fn);
 
-void pusub_unsubscribe(char *event_name, Subscriber fn);
+void pubsub_unsubscribe(char *event_name, Subscriber fn);
 
 hash* pubsub_new();
 
