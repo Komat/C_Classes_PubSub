@@ -1,0 +1,6 @@
+[submodule "classes/core/ItemList"]
+	path = classes/core/ItemList
+	url = https://github.com/Komat/C_Classes_ItemList.git
+[submodule "classes/core/Dictionary"]
+	path = classes/core/Dictionary
+	url = https://github.com/Komat/C_Classes_Dictionary.git
