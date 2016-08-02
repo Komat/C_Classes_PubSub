@@ -7,7 +7,7 @@
  */
 
 #include <stdio.h>
-#include "classes/core/PubSub/PubSub.h"
+#include "PubSub.h"
 
 
 char *TOPIC_LAUNCH = "event_launch";
