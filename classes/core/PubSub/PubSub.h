@@ -15,12 +15,16 @@
 #include "../Dictionary/classes/core/Dictionary/Dictionary.h"
 
 
-typedef void (*SubScriber)(void *context);
+typedef void (*Subscriber)(void *context);
 
 void pubsub_publish(char *event_name, void *data);
-void pubsub_subscribe(char *event_name, SubScriber fn);
-void pusub_unsubscribe(char *event_name, SubScriber fn);
-hash* pubsub_init();
+
+void pubsub_subscribe(char *event_name, Subscriber fn);
+
+void pusub_unsubscribe(char *event_name, Subscriber fn);
+
+hash* pubsub_new();
+
 void pubsub_destory();
 
 
