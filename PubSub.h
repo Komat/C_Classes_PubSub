@@ -11,8 +11,8 @@
 
 #include <stdio.h>
 
-#include "classes/core/ItemList/ItemList.h"
-#include "classes/core/Dictionary/Dictionary.h"
+#include "../ItemList/ItemList.h"
+#include "../Dictionary/Dictionary.h"
 
 
 typedef void (*Subscriber)(void *context);
