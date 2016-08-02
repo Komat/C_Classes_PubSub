@@ -11,10 +11,10 @@ set(SOURCE_FILES
         classes/core/ItemList/classes/core/ItemList/Item.h
         classes/core/ItemList/classes/core/ItemList/ItemList.c
         classes/core/ItemList/classes/core/ItemList/ItemList.h
-        classes/core/Dictionary/classes/Dictionary/Hash.c
-        classes/core/Dictionary/classes/Dictionary/Hash.h
-        classes/core/Dictionary/classes/Dictionary/Dictionary.c
-        classes/core/Dictionary/classes/Dictionary/Dictionary.h
+        classes/core/Dictionary/classes/core/Dictionary/Hash.c
+        classes/core/Dictionary/classes/core/Dictionary/Hash.h
+        classes/core/Dictionary/classes/core/Dictionary/Dictionary.c
+        classes/core/Dictionary/classes/core/Dictionary/Dictionary.h
 )
 add_executable(PubSub ${SOURCE_FILES})
 

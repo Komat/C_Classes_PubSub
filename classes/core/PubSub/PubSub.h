@@ -12,7 +12,7 @@
 #include <stdio.h>
 
 #include "../ItemList/classes/core/ItemList/ItemList.h"
-#include "../Dictionary/classes/Dictionary/Dictionary.h"
+#include "../Dictionary/classes/core/Dictionary/Dictionary.h"
 
 
 typedef void (*SubScriber)(void *context);
