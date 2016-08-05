@@ -20,6 +20,9 @@ trim_trailing_whitespace = false
 indent_style = space
 indent_size = 2
 
-[*.h,*.c]
+[*.h]
+indent_size = 4
+
+[*.c]
 indent_size = 4
 
