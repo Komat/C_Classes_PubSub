@@ -20,7 +20,7 @@ char *TOPIC_RECEIVE = "topic_receive";
  */
 static void unsubscribe_callback(void *data) {
     puts((char *)data);
-    pusub_unsubscribe(TOPIC_LAUNCH, unsubscribe_callback);
+    pubsub_unsubscribe(TOPIC_LAUNCH, unsubscribe_callback);
 }
 
 /**
@@ -43,7 +43,7 @@ static void publish_topic() {
  */
 static void unsubscribe_demo_callback(void *data) {
     puts((char *)data);
-    pusub_unsubscribe(TOPIC_RECEIVE, unsubscribe_demo_callback);
+    pubsub_unsubscribe(TOPIC_RECEIVE, unsubscribe_demo_callback);
 }
 
 /**
