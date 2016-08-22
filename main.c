@@ -1,7 +1,7 @@
 /**
  * @description
  * @fileName main.c.
- * @author komatsu
+ * @author komat
  * @date 8/2/16.
  * @version 0.0
  */

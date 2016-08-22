@@ -1,7 +1,7 @@
 /**
  * @description
  * @fileName PubSub.c.
- * @author komatsu
+ * @author komat
  * @date 8/2/16.
  * @version 0.0
  */
@@ -18,7 +18,7 @@ static hash *s_callbacks;
  */
 static item_list *get_event_handler_list(char *event_name) {
     item_list *result;
-    hash_template *pair = dictionary_get(s_callbacks, event_name);
+    hash_item *pair = dictionary_get(s_callbacks, event_name);
 
     if (pair) {
         result = pair->val;
